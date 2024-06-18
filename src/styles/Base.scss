@@ -1,0 +1,45 @@
+@import "./variable.scss";
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ant-collapse {
+    border: none;
+    background: transparent;
+    .ant-collapse-item {
+        border: none;
+        background:#f3f3f3;
+        margin-bottom: 12px;
+        border-radius: 6px;
+    }
+    .ant-collapse-header {
+        padding: 6px 0;
+        background: transparent;
+        span {
+            font-size: 18px;
+            font-weight: bold;
+            color: $TextColor01;
+        }
+    }
+    .ant-collapse-content {
+        border: none;
+        background: transparent;
+        p {
+            font-size: 16px;
+        }
+        .ant-collapse-content-box {
+            padding: 0 0 30px 40px;
+        }
+    }
+}

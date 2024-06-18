@@ -1,0 +1,14 @@
+@import "./variable.scss";
+.title {
+    font-size: $Font40;
+    color: $TextColor01;
+    font-weight: bold;
+    font-family: $FontPoppins;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 0 30px 0;
+}
+.faq_main_wrapper {
+    width: 90%;
+    margin: 80px auto 0;
+}

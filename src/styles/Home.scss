@@ -1,0 +1,38 @@
+@import './variable.scss';
+.why_choose_us_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 100px auto 60px;
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        h2 {
+            font-size: $Font40;
+            color: $TextColor01;
+            font-weight: bold;
+            font-family: $FontPoppins;
+            text-align: center;
+        }
+        p {
+            font-size: $Font18;
+            color: rgba($TextColor01, 0.6);
+            line-height: 28px;
+            font-family: $FontPoppins;
+            text-align: center;
+        }
+        .item_center {
+            width: 40%;
+            text-align: center;
+            padding: 0 40px;
+        }
+    }
+    .right {
+        width: 40%;
+        img {
+            height: 400px;
+        }
+    }
+}
